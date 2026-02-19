@@ -6,10 +6,12 @@ members = [
   "contracts/twenty-one",
   "contracts/number-guess",
   "contracts/dice-duel",
+  "contracts/chain-slicer",
 ]
 
 [workspace.dependencies]
 soroban-sdk = "25.0.2"
+soroban-poseidon = "25.0.0"
 
 [profile.release]
 opt-level = "z"

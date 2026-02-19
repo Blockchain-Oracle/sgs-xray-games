@@ -246,6 +246,14 @@ dependencies = [
 ]
 
 [[package]]
+name = "chain-slicer"
+version = "1.0.1"
+dependencies = [
+ "soroban-poseidon",
+ "soroban-sdk",
+]
+
+[[package]]
 name = "chrono"
 version = "0.4.42"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1374,6 +1382,15 @@ dependencies = [
  "soroban-env-common",
  "soroban-env-host",
  "thiserror",
+]
+
+[[package]]
+name = "soroban-poseidon"
+version = "25.0.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "0f98bca99d10989b95b90455d6a3fbf89f776679845e7a262f43381a35ff26ab"
+dependencies = [
+ "soroban-sdk",
 ]
 
 [[package]]
